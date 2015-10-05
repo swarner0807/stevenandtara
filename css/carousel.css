@@ -1,0 +1,53 @@
+#quote-carousel {
+    padding: 0 0.625em 1.875em 0.625em;
+    margin-top: 1.875em;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 1.875em;
+}
+
+#quote-carousel .carousel-indicators {
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+    left: 0;
+    top: 0em;
+    bottom: auto;
+    margin: 0;
+}
+#quote-carousel .carousel-indicators li {
+    width: 6em;
+    height: 6em;
+    margin: 0.3125em;
+    cursor: pointer;
+    border: 0.25em solid #CCC;
+    border-radius: 3.125em;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 9em;
+    height: 9em;
+    border-radius: 6.25em;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 18.75em;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}

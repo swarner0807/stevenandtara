@@ -1,5 +1,51 @@
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333; }
+html {
+	height:100%;
+	width:100%;
+}
 
-/*# sourceMappingURL=style.css.map */
+body {
+    background-color: #000; 
+    background-image: url("../assets/WeddingBackground.png"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}   
+
+.right {
+	text-align: right;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+.jumbotron {
+   opacity: 0.8;
+   width: 100%;
+}
+
+.nonMobileWidth {
+	width: 65%;
+	display: block;
+	height: auto;
+    margin: 0 auto;
+}
+
+.center {
+	display: block;
+	height: auto;
+    margin: 0 auto;
+}
+
+.imageSize {
+	width:25%; 
+	height:25%
+} 
+.imageSizeMobile {
+	width:75%; 
+	height:75%
+} 
